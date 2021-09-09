@@ -1,0 +1,32 @@
+@implements IDisposable
+
+<div @ref="WeavyContainer" class="weavy-app"></div>
+
+@code{ 
+    ElementReference WeavyContainer;
+
+    [CascadingParameter]
+    protected WeavyReference Weavy { get; set; }
+
+    [Parameter]
+    public string SpaceKey { get; set; }
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public IDictionary<string, object> Options { get; set; }
+
+    public SpaceReference Space;
+    public AppReference App;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender) {
+        if (firstRender) {
+            Options.Add("container", WeavyContainer);
+
+            Space = await Weavy.Space(new { key = SpaceKey });
+            App = await Space.App(Options);
+        }
+    }
+
+    public void Dispose () {
+        App?.Remove();
+    }
+}
