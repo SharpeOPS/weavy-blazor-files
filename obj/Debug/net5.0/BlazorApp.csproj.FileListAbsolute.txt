@@ -61,5 +61,5 @@ C:\weavy\test\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Shared\WeavyApp.razor.
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\Razor\Shared\Weavy.razor.g.cs
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\Razor\Shared\WeavyApp.razor.g.cs
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\scopedcss\Shared\WeavyApp.razor.rz.scp.css
-C:\weavy\test\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\Feed.razor.g.cs
-C:\weavy\test\BlazorApp\obj\Debug\net5.0\Razor\Pages\Feed.razor.g.cs
+C:\weavy\test\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\Files.razor.g.cs
+C:\weavy\test\BlazorApp\obj\Debug\net5.0\Razor\Pages\Files.razor.g.cs

@@ -1,0 +1,12 @@
+@page "/files"
+
+<Weavy>
+    <div style="height: 100vh;">
+        <WeavyApp SpaceKey="blazor-space" type="files" key="@FilesKey" name="@FilesName"/>
+    </div>
+</Weavy>
+
+@code {
+    private string FilesKey { get; set; } = "blazor-files";
+    private string FilesName { get; set; }  = "Blazor Files";
+}

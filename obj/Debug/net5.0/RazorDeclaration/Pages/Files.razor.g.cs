@@ -89,8 +89,8 @@ using BlazorApp.Weavy;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/feed")]
-    public partial class Feed : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/files")]
+    public partial class Files : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,10 +98,10 @@ using BlazorApp.Weavy;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\weavy\test\BlazorApp\Pages\Feed.razor"
+#line 9 "C:\weavy\test\BlazorApp\Pages\Files.razor"
        
-    private string FeedKey { get; set; } = "blazor-feed";
-    private string FeedName { get; set; }  = "Blazor Feed";
+    private string FilesKey { get; set; } = "blazor-files";
+    private string FilesName { get; set; }  = "Blazor Files";
 
 #line default
 #line hidden
