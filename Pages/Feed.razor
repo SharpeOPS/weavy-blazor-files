@@ -1,0 +1,12 @@
+@page "/feed"
+
+<Weavy>
+    <div style="height: 100vh;">
+        <WeavyApp SpaceKey="blazor-space" type="posts" key="@FeedKey" name="@FeedName"/>
+    </div>
+</Weavy>
+
+@code {
+    private string FeedKey { get; set; } = "blazor-feed";
+    private string FeedName { get; set; }  = "Blazor Feed";
+}

@@ -56,10 +56,10 @@ C:\weavy\test\BlazorApp\obj\Debug\net5.0\ref\BlazorApp.dll
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\BlazorApp.pdb
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\BlazorApp.genruntimeconfig.cache
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\BlazorApp.csproj.CopyComplete
-C:\weavy\test\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\Chat.razor.g.cs
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Shared\Weavy.razor.g.cs
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Shared\WeavyApp.razor.g.cs
-C:\weavy\test\BlazorApp\obj\Debug\net5.0\Razor\Pages\Chat.razor.g.cs
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\Razor\Shared\Weavy.razor.g.cs
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\Razor\Shared\WeavyApp.razor.g.cs
 C:\weavy\test\BlazorApp\obj\Debug\net5.0\scopedcss\Shared\WeavyApp.razor.rz.scp.css
+C:\weavy\test\BlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\Feed.razor.g.cs
+C:\weavy\test\BlazorApp\obj\Debug\net5.0\Razor\Pages\Feed.razor.g.cs
